@@ -44,9 +44,11 @@ body{
 .bloco p{
     font-size: 15px;
     font-family: Outfit, sans-serif;
+    text-align: left;
     margin-top: auto;
     margin-right: auto;
     opacity: 0.6;
+    margin-bottom: 20px;
 }
 
 .bloco h3{
@@ -57,9 +59,7 @@ body{
     font-size: 16px;
 }
 .bloco .caixa{
-    background-color: rgb(252, 236, 236);
-    margin-top: auto;
-    margin-right: auto;
+    background-color: rgb(252, 229, 229);
     padding: 20px;
     border-radius: 10px; 
     width: 100%;
@@ -74,15 +74,16 @@ body{
 }   
 .bloco h2{
     font-family: Young Serif, serif;
-    margin-top: auto;
+    margin-top: 10px;
     margin-right: auto;
+    font-weight: 400;
     font-size: 20px;
     color: hsl(14, 45%, 36%);
 }
 .bloco ul{
     font-family: Outfit, sans-serif;
     font-size: 15px;
-    margin-top: auto;
+    margin-top: 10px;
     margin-right: auto;
     opacity: 0.6;
 }
@@ -136,4 +137,22 @@ th{
     font-family: Outfit, sans-serif;
 }
 
+tr:last-child td {
+    border-bottom: none;
+}
 
+tr:last-child th{
+    border-bottom: none;
+}
+
+ul{
+   padding-left: 0%;
+   list-style-position: inside;
+   text-align: center;
+   text-align: left;
+}
+ol{
+    padding-left: 0%;
+    list-style-position: inside;
+    text-align: left;
+}
