@@ -39,6 +39,6 @@ O objetivo é construir uma **página de receita** com imagem, título, informa�
 
 
 ### 🔹 Minha versão
-
+![Captura de tela_16-8-2025_101239_aryannyglv github io](https://github.com/user-attachments/assets/4e80df5a-286d-4605-8956-1713551f0aa1)
 
 ---
