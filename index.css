@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+body{
+    margin: 0;
+    margin-top: 20px;
+    background: hsl(34, 74%, 90%) ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+    background-color: white;
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloco img{
+    width: 100%;
+    height: 200px;
+    margin-top: -10px ;
+    border-radius: 9px;
+}
+
+.bloco h1{
+    font-weight:  400;
+    font-family: Young Serif, serif;
+    padding: -10px 10px;
+    margin-right: auto;
+    font-size: 26px;
+    margin-top: 10px;
+  
+}
+
+.bloco p{
+    font-size: 15px;
+    font-family: Outfit, sans-serif;
+    margin-top: auto;
+    margin-right: auto;
+    opacity: 0.6;
+}
+
+.bloco h3{
+    color: hsl(332, 53%, 26%);
+    font-family: Outfit, sans-serif;
+    margin-top: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+.bloco .caixa{
+    background-color: rgb(252, 236, 236);
+    margin-top: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10px; 
+    width: 100%;
+    margin-right: -10px;
+}
+.caixa ul{
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    margin-top: auto;
+    margin-right: auto;
+    opacity: 0.6;
+}   
+.bloco h2{
+    font-family: Young Serif, serif;
+    margin-top: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: hsl(14, 45%, 36%);
+}
+.bloco ul{
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    margin-top: auto;
+    margin-right: auto;
+    opacity: 0.6;
+}
+
+
+.bloco ol{
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    margin-top: auto;
+    margin-right: auto;
+    opacity: 0.6;
+}
+
+ol li::marker {
+    color:  hsl(14, 45%, 36%);
+    font-weight:  bold;
+}
+
+.bloco hr{
+    width: 100%;
+    height: -2px;
+    background-color: hsl(14, 45%, 36%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+td, th{
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align:  left;
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    
+}
+
+td{
+    color:hsl(14, 49%, 39%);
+    font-weight: bold;
+
+}
+
+th{
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Outfit, sans-serif;
+}
+
+
